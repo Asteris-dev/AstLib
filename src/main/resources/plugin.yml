@@ -1,0 +1,6 @@
+name: AstLib
+version: 1.0
+main: ru.asteris.astlib.Main
+api-version: 1.16
+author: Asteris
+softdepend: [PlaceholderAPI, Vault]

@@ -1,0 +1,19 @@
+package ru.asteris.astlib.commands;
+
+import org.bukkit.command.CommandSender;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public abstract class SubCommand {
+
+    public abstract String getName();
+
+    public abstract String getPermission();
+
+    public abstract void execute(CommandSender sender, String[] args);
+
+    public List<String> tabComplete(CommandSender sender, String[] args) {
+        return new ArrayList<>();
+    }
+}
